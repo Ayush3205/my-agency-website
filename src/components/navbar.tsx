@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-white">KSL Fido global</span>
+            <span className="text-2xl font-bold text-white">KSL Fido Global</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -60,7 +60,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <motion.div className="space-y-6" variants={itemVariants}>
             <Link href="/" className="inline-block">
-              <span className="text-2xl font-bold text-white">KSL Fido global</span>
+              <span className="text-2xl font-bold text-white">KSL Fido Global</span>
             </Link>
             <div className="space-y-4 text-gray-300">
               <p>171/5, Borhanpur Lane, 6 Hazaribagh Road, Dhaka 1211</p>

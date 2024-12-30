@@ -17,7 +17,7 @@ export default function HeroSection() {
               transition={{ duration: 0.5 }}
             >
               We are<br />
-              KSL Fido global
+              KSL Fido Global
             </motion.h1>
             <motion.p 
               className="text-xl font-bold text-blue-600"

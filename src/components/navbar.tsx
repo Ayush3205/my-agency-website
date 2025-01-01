@@ -39,7 +39,7 @@ export default function Navbar() {
             </button>
             
             <button onClick={() => handleScrollToSection('Contact')} className="text-white hover:text-blue-300">
-              Contact
+              Contact Us
             </button>
 
             <Link 

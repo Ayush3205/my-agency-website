@@ -25,7 +25,9 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Your Dream, We Build
+              Cut Costs <br />
+              Achive More <br />
+              Hire Virual Assistance  <br />
             </motion.p>
             <motion.p 
               className="text-l font-bold text-blue-900"
@@ -33,8 +35,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Where an idea turns into a project. Help your startups, business, and ideas to grow more and solve the problem with the power of code.
-              With change in business dynamics & evolving business needs. Transform your business with our expert virtual assistance solutions. With highly experienced professionals, we can reduce the operational costs, save time and allow you to focus on growth. Experience significant savings with our focused team, sheer will and commitment!
+              With change in market dynamics & evolving business needs. Transform your business with our expert virtual assistance solutions. With highly experienced professionals, we can reduce the operational costs, save time and allow you to focus on growth. Experience significant savings with our focused team, sheer will and commitment!
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

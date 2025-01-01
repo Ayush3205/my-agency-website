@@ -1,9 +1,9 @@
 export default function SkillsSection() {
     const skills = [
-      { name: "Graphics Design", percentage: 80 },
-      { name: "Executive Assistance", percentage: 80 },
+      { name: "Executive Assistance", percentage: 90 },
+      { name: "Customer Support", percentage: 92 },
       { name: "Digital Marketing", percentage: 90 },
-      { name: "E-commerce Solutions", percentage: 85 }
+      { name: "E-commerce Solutions", percentage: 95 }
     ]
   
     return (

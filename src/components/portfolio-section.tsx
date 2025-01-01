@@ -104,8 +104,7 @@ export default function PortfolioSection() {
             className="text-4xl font-bold text-white mb-8"
             variants={itemVariants}
           >
-            Latest Project That<br />
-            Recently Done
+            Check Out Our Latest Projects<br />
           </motion.h2>
           <motion.div 
             className="flex justify-center gap-4 mb-12"

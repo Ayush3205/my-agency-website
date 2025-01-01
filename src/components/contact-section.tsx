@@ -1,3 +1,4 @@
+
 'use client'
 
 import { useState } from 'react'
@@ -54,8 +55,8 @@ export default function ContactSection() {
             className="text-3xl md:text-4xl font-bold mb-12 text-white"
             variants={itemVariants}
           >
-            Do You Have Any Projects<br />
-            Plz Say Hello
+            GET IN TOUCH WITH US.<br />
+            Get a 7-day's free trial of our Virtual Assistance Services. 
           </motion.h2>
           <motion.form onSubmit={handleSubmit} className="space-y-6" variants={itemVariants}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

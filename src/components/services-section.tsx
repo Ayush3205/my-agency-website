@@ -8,31 +8,6 @@ export default function ServicesSection() {
   const services = [
     {
       icon: <Layout className="h-12 w-12 text-blue-800" />,
-      title: "UI/UX",
-      description: (
-        <ul className="list-disc pl-5">
-          <li>Start with listening to your idea</li>
-          <li>Research</li>
-          <li>Make a wireframe</li>
-          <li>Build a prototype</li>
-          <li>Finalizing the UI/UX</li>
-        </ul>
-      )
-    },
-    {
-      icon: <Palette className="h-12 w-12 text-blue-800" />,
-      title: "Graphic Design",
-      description: (
-        <ul className="list-disc pl-5">
-          <li>Logos</li>
-          <li>Flyers</li>
-          <li>Visiting cards</li>
-          <li>Social media designs</li>
-        </ul>
-      )
-    },
-    {
-      icon: <Layout className="h-12 w-12 text-blue-800" />,
       title: "Executive Assistance",
       description: (
         <ul className="list-disc pl-5">
@@ -44,23 +19,6 @@ export default function ServicesSection() {
           <li>Project Management</li>
           <li>Report Preparation</li>
           <li>Travel Coordination</li>
-        </ul>
-      )
-    },
-    {
-      icon: <Palette className="h-12 w-12 text-blue-800" />,
-      title: "Digital Marketing",
-      description: (
-        <ul className="list-disc pl-5">
-          <li>Affiliate Marketing</li>
-          <li>Content Marketing</li>
-          <li>Conversion Rate Optimization (CRO)</li>
-          <li>Email Marketing</li>
-          <li>Influencer Marketing</li>
-          <li>Pay-Per-Click Advertising (PPC)</li>
-          <li>SEO</li>
-          <li>Social Media Marketing</li>
-          <li>Web Analytics</li>
         </ul>
       )
     },
@@ -80,6 +38,37 @@ export default function ServicesSection() {
         </ul>
       )
     },
+    {
+      icon: <Palette className="h-12 w-12 text-blue-800" />,
+      title: "Graphic Design",
+      description: (
+        <ul className="list-disc pl-5">
+          <li>Logos</li>
+          <li>Flyers</li>
+          <li>Visiting cards</li>
+          <li>Social media designs</li>
+        </ul>
+      )
+    },
+    
+    {
+      icon: <Palette className="h-12 w-12 text-blue-800" />,
+      title: "Digital Marketing",
+      description: (
+        <ul className="list-disc pl-5">
+          <li>Affiliate Marketing</li>
+          <li>Content Marketing</li>
+          <li>Conversion Rate Optimization (CRO)</li>
+          <li>Email Marketing</li>
+          <li>Influencer Marketing</li>
+          <li>Pay-Per-Click Advertising (PPC)</li>
+          <li>SEO</li>
+          <li>Social Media Marketing</li>
+          <li>Web Analytics</li>
+        </ul>
+      )
+    },
+    
     {
       icon: <Code className="h-12 w-12 text-blue-800" />,
       title: "Design Services",
@@ -109,6 +98,19 @@ export default function ServicesSection() {
       )
     },
     {
+      icon: <Layout className="h-12 w-12 text-blue-800" />,
+      title: "UI/UX",
+      description: (
+        <ul className="list-disc pl-5">
+          <li>Start with listening to your idea</li>
+          <li>Research</li>
+          <li>Make a wireframe</li>
+          <li>Build a prototype</li>
+          <li>Finalizing the UI/UX</li>
+        </ul>
+      )
+    },
+    {
       icon: <Smartphone className="h-12 w-12 text-blue-400" />,
       title: "Data Entry & Processing",
       description: (
@@ -126,6 +128,7 @@ export default function ServicesSection() {
         </ul>
       )
     }
+    
   ]
 
   const [ref, inView] = useInView({

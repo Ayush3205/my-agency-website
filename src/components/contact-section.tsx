@@ -56,7 +56,7 @@ export default function ContactSection() {
             variants={itemVariants}
           >
             GET IN TOUCH WITH US.<br />
-            Get a 7-day's free trial of our Virtual Assistance Services. 
+            Get a 7-days free trial of our Virtual Assistance Services. 
           </motion.h2>
           <motion.form onSubmit={handleSubmit} className="space-y-6" variants={itemVariants}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

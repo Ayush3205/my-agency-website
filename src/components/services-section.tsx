@@ -38,19 +38,25 @@ export default function ServicesSection() {
         </ul>
       )
     },
-    
     {
-      icon: <Palette className="h-12 w-12 text-blue-800" />,
-      title: "Graphic Design",
+      icon: <Smartphone className="h-12 w-12 text-blue-400" />,
+      title: "Data Entry & Processing",
       description: (
         <ul className="list-disc pl-5">
-          <li>Logos</li>
-          <li>Flyers</li>
-          <li>Visiting cards</li>
-          <li>Social media designs</li>
+          <li>Data Cleansing</li>
+          <li>Data Conversion</li>
+          <li>Data Mining</li>
+          <li>Data Processing</li>
+          <li>Data Retrieval</li>
+          <li>Database Management</li>
+          <li>Document Scanning and Indexing</li>
+          <li>Form Processing</li>
+          <li>Image Data Entry</li>
+          <li>Online Data Entry</li>
         </ul>
       )
     },
+    
     
     {
       icon: <Palette className="h-12 w-12 text-blue-800" />,
@@ -112,23 +118,18 @@ export default function ServicesSection() {
       )
     },
     {
-      icon: <Smartphone className="h-12 w-12 text-blue-400" />,
-      title: "Data Entry & Processing",
+      icon: <Palette className="h-12 w-12 text-blue-800" />,
+      title: "Graphic Design",
       description: (
         <ul className="list-disc pl-5">
-          <li>Data Cleansing</li>
-          <li>Data Conversion</li>
-          <li>Data Mining</li>
-          <li>Data Processing</li>
-          <li>Data Retrieval</li>
-          <li>Database Management</li>
-          <li>Document Scanning and Indexing</li>
-          <li>Form Processing</li>
-          <li>Image Data Entry</li>
-          <li>Online Data Entry</li>
+          <li>Logos</li>
+          <li>Flyers</li>
+          <li>Visiting cards</li>
+          <li>Social media designs</li>
         </ul>
       )
     }
+    
     
   ]
 

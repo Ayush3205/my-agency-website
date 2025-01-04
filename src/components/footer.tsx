@@ -132,7 +132,7 @@ export default function Footer() {
           variants={itemVariants}
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400">© 2024 Code Station 21. All Rights Reserved.</p>
+            <p className="text-gray-400">© 2024 KSL Fido Global. All Rights Reserved.</p>
             <div className="flex space-x-6">
               <Link href="#" className="text-gray-400 hover:text-blue-400">Purchase</Link>
               <Link href="#" className="text-gray-400 hover:text-blue-400">Privacy Policy</Link>

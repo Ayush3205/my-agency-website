@@ -23,21 +23,22 @@ export default function ServicesSection() {
       )
     },
     {
-      icon: <Smartphone className="h-12 w-12 text-blue-800" />,
-      title: "Web & App Development",
+      icon: <Palette className="h-12 w-12 text-blue-800" />,
+      title: "E-commerce Solutions",
       description: (
         <ul className="list-disc pl-5">
-          <li>API Development</li>
-          <li>Mobile App Development</li>
-          <li>Responsive Web Design</li>
-          <li>Software Development</li>
-          <li>UI/UX Design</li>
-          <li>Web Application Development</li>
-          <li>Website Maintenance</li>
-          <li>WordPress Development</li>
+          <li>Cart Abandonment Solutions</li>
+          <li>Customer Relationship Management (CRM)</li>
+          <li>Digital Marketing for E-commerce</li>
+          <li>E-commerce Platform Integration</li>
+          <li>Inventory Management</li>
+          <li>Order Fulfillment and Shipping</li>
+          <li>Product Listing and Management</li>
+          <li>SEO for E-commerce</li>
         </ul>
       )
     },
+    
     {
       icon: <Palette className="h-12 w-12 text-blue-800" />,
       title: "Graphic Design",
@@ -82,18 +83,18 @@ export default function ServicesSection() {
       )
     },
     {
-      icon: <Palette className="h-12 w-12 text-blue-800" />,
-      title: "E-commerce Solutions",
+      icon: <Smartphone className="h-12 w-12 text-blue-800" />,
+      title: "Web & App Development",
       description: (
         <ul className="list-disc pl-5">
-          <li>Cart Abandonment Solutions</li>
-          <li>Customer Relationship Management (CRM)</li>
-          <li>Digital Marketing for E-commerce</li>
-          <li>E-commerce Platform Integration</li>
-          <li>Inventory Management</li>
-          <li>Order Fulfillment and Shipping</li>
-          <li>Product Listing and Management</li>
-          <li>SEO for E-commerce</li>
+          <li>API Development</li>
+          <li>Mobile App Development</li>
+          <li>Responsive Web Design</li>
+          <li>Software Development</li>
+          <li>UI/UX Design</li>
+          <li>Web Application Development</li>
+          <li>Website Maintenance</li>
+          <li>WordPress Development</li>
         </ul>
       )
     },

@@ -26,8 +26,8 @@ export default function HeroSection() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               Cut Costs <br />
-              Achive More <br />
-              Hire Virual Assistance  <br />
+              Achieve More <br />
+              Hire Virual Assistant  <br />
             </motion.p>
             <motion.p 
               className="text-l font-bold text-blue-900"

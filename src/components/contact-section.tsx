@@ -12,7 +12,7 @@ export default function ContactSection() {
     email: '',
     message: ''
   })
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [, setIsSubmitting] = useState(false)
 
   const [ref, inView] = useInView({
     triggerOnce: true,

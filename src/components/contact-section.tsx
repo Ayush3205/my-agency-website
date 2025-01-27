@@ -4,6 +4,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import toast from 'react-hot-toast'
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -11,6 +12,7 @@ export default function ContactSection() {
     email: '',
     message: ''
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -19,8 +21,29 @@ export default function ContactSection() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission logic here
-    console.log('Form submitted:', formData)
+    setIsSubmitting(true)
+    
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to send message')
+      }
+
+      toast.success('Message sent successfully!')
+      setFormData({ name: '', email: '', message: '' })
+    } catch (error) {
+      console.error('Error:', error)
+      toast.error('Failed to send message. Please try again.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const containerVariants = {

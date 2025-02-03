@@ -91,7 +91,7 @@ export default function PortfolioSection() {
 
   return (
     <motion.section 
-      className="py-16 bg-gradient-to-b from-blue-300 via-blue-1000 to-blue-800" 
+      className="py-16 bg-gradient-to-r from-blue-100 to-blue-200" 
       id="Portfolio"
       ref={ref}
       initial="hidden"
@@ -101,7 +101,7 @@ export default function PortfolioSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <motion.h2 
-            className="text-4xl font-bold text-white mb-8"
+            className="text-4xl font-bold text-black mb-8"
             variants={itemVariants}
           >
             Check Out Our Latest Projects<br />

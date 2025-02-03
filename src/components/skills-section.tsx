@@ -7,17 +7,17 @@ export default function SkillsSection() {
     ]
   
     return (
-      <section className="pt-20 pb-16 bg-gradient-to-b from-blue-300 via-blue-1000 to-blue-800" >
+      <section className="py-16 bg-gradient-to-r from-blue-100 to-blue-200" >
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-white">
+            <h2 className="text-3xl font-bold mb-12 text-black">
               Creative & Professional<br />
               Skills Experience
             </h2>
             <div className="space-y-8">
               {skills.map((skill) => (
                 <div key={skill.name} className="space-y-2">
-                  <div className="flex justify-between text-white">
+                  <div className="flex justify-between text-black">
                     <span className="font-medium">{skill.name}</span>
                     <span>{skill.percentage}%</span>
                   </div>

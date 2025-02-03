@@ -66,7 +66,7 @@ export default function ContactSection() {
 
   return (
     <motion.section 
-      className="py-16 bg-gradient-to-b from-blue-300 via-blue-1000 to-blue-800"
+      className="py-16 bg-white"
       ref={ref}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
@@ -75,7 +75,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2 
-            className="text-3xl md:text-4xl font-bold mb-12 text-white"
+            className="text-3xl md:text-4xl font-bold mb-12 text-black"
             variants={itemVariants}
           >
             GET IN TOUCH WITH US.<br />
@@ -87,7 +87,7 @@ export default function ContactSection() {
                 <input
                   type="text"
                   placeholder="Your Full Name"
-                  className="w-full px-4 py-3 rounded-md bg-blue-200 text-white border focus:outline-none focus:ring-2 focus:ring-blue-100"
+                  className="w-full px-4 py-3 rounded-md bg-blue-200 text-black border focus:outline-none focus:ring-2 focus:ring-blue-100"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
@@ -97,7 +97,7 @@ export default function ContactSection() {
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-full px-4 py-3 rounded-md bg-blue-200 text-white border focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-3 rounded-md bg-blue-200 text-black border focus:outline-none focus:ring-2 focus:ring-blue-500"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
@@ -108,7 +108,7 @@ export default function ContactSection() {
               <textarea
                 placeholder="Write Message"
                 rows={4}
-                className="w-full px-4 py-3 rounded-md bg-blue-200 text-white border  focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-3 rounded-md bg-blue-200 text-black border  focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 required

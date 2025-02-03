@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col justify-center pb-6 h-screen bg-white     " id="Home">
+    <section className="flex flex-col justify-center pb-6 h-screen bg-white" id="Home">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">

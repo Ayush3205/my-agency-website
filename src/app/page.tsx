@@ -9,11 +9,11 @@ import PortfolioSection from '@/components/portfolio-section'
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <SkillsSection />
+      <HeroSection />      
       <ServicesSection />
       <PortfolioSection/>
       <StatsSection />
+      <SkillsSection />
       <ContactSection />
      <Footer />
     </>

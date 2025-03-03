@@ -68,17 +68,19 @@ export default function ContactSection() {
       </div>
       <div className="w-full md:w-1/2.5 text-left">
         <h2 className="text-4xl font-bold text-black mb-4">
-          DynaPro Global: Your Strategic Partner in Virtual Assistance
+          KSL Fido Global: Your Premier Partner in Virtual Assistance
         </h2>
         <p className="text-gray-600 mb-6">
-          With us, you get the expertise you need and the flexibility to scale your business without limits.
+        At DynaPro Global, we provide expert virtual assistance solutions designed to empower your business and drive growth. With our services, you gain the flexibility to scale operations efficiently while reducing costs.
+
         </p>
         <ul className="space-y-2 text-gray-700">
-          <li className="flex items-center"><span className="mr-2">🔍</span> Manage Daily Mundane Tasks With Ease</li>
-          <li className="flex items-center"><span className="mr-2">📶</span> Operational Cost Savings by up to 40%</li>
-          <li className="flex items-center"><span className="mr-2">⚡</span> Increased Productivity by up to 30%</li>
-          <li className="flex items-center"><span className="mr-2">👥</span> More Focus on Business Growth</li>
-          <li className="flex items-center"><span className="mr-2">📊</span> Flexibility to Scale</li>
+          <li className="flex items-center"><span className="mr-2">🔍</span> Streamline Everyday Operations</li>
+          <li className="flex items-center"><span className="mr-2">📶</span> Reduce Operational Costs by up to 40%</li>
+          <li className="flex items-center"><span className="mr-2">⚡</span> Boost Productivity by up to 30%</li>
+          <li className="flex items-center"><span className="mr-2">👥</span> Refocus on Core Business Growth</li>
+          <li className="flex items-center"><span className="mr-2">📊</span> Scalable Solutions Tailored to Your Needs</li>
+          <li className="flex items-center"><span className="mr-2">📊</span> Unlock the potential for seamless business operations and enhanced efficiency with KSL FIDO GLOBAL.</li>
         </ul>
         <form onSubmit={handleSubmit} className="space-y-4 mt-6 w-3/4">
           <input type="text" placeholder="Your Full Name" className="w-full px-4 py-3 rounded-md bg-gray-200 text-black border" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} required />

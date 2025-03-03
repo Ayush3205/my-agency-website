@@ -166,7 +166,7 @@ export default function ServicesSection() {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={containerVariants}
-      className="py-16 bg-white"
+      className="py-16 bg-gradient-to-r from-blue-100 to-blue-200"
       id="Services"
     >
       <div className="container mx-auto px-4">

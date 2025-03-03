@@ -91,7 +91,7 @@ export default function PortfolioSection() {
 
   return (
     <motion.section 
-      className="py-16 bg-gradient-to-r from-blue-100 to-blue-200" 
+      className="py-16 bg-white" 
       id="Portfolio"
       ref={ref}
       initial="hidden"

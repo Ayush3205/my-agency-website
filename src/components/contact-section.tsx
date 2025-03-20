@@ -71,7 +71,7 @@ export default function ContactSection() {
           KSL Fido Global: Your Premier Partner in Virtual Assistance
         </h2>
         <p className="text-gray-600 mb-6">
-        At DynaPro Global, we provide expert virtual assistance solutions designed to empower your business and drive growth. With our services, you gain the flexibility to scale operations efficiently while reducing costs.
+        KSL FIDO GLOBAL, we provide expert virtual assistance solutions designed to empower your business and drive growth. With our services, you gain the flexibility to scale operations efficiently while reducing costs.
 
         </p>
         <ul className="space-y-2 text-gray-700">
